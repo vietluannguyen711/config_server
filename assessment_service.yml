@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  datasource:
+    url: jdbc:postgresql://course_db:5432/assessmentdb
+    driverClassName: org.postgresql.Driver
+    username: root
+    password: Naul126@.
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
