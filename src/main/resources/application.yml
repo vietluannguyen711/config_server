@@ -9,3 +9,4 @@ spring:
       server:
         git:
           uri: https://github.com/vietluannguyen711/config_server.git
+          clone-on-start: true
