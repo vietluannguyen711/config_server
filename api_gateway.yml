@@ -22,10 +22,6 @@ spring:
           uri: http://localhost:8083
           predicates:
             - Path=/api/assessments/**
-management:
-  metrics:
-    enable:
-      processormetrics: false
 
 
 
